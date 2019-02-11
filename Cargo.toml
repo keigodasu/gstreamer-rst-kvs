@@ -1,0 +1,9 @@
+[package]
+name = "gstreamer-rst-kvs"
+version = "0.1.0"
+authors = ["kei"]
+edition = "2018"
+
+[dependencies]
+gstreamer = "*"
+glib = "*"
