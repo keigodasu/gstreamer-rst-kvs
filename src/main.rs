@@ -67,9 +67,7 @@ fn sink_to_kvs() {
         .set_property("caps", &query_caps_h264)
         .unwrap();
 
-    // Start playing
-    //.expect("Unable to set the pipeline to the `Playing` state");
-
+    // loop until any errors receive
     let main_loop = glib::MainLoop::new(None, false);
     let main_loop_clone = main_loop.clone();
 
